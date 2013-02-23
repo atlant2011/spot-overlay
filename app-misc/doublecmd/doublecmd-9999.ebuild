@@ -7,7 +7,7 @@ inherit eutils subversion
 
 DESCRIPTION="Double Commander is a cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas."
 HOMEPAGE="http://doublecmd.sourceforge.net/"
-ESVN_REPO_URI="https://doublecmd.svn.sourceforge.net/svnroot/doublecmd/branches/0.5/"
+ESVN_REPO_URI="http://svn.code.sf.net/p/doublecmd/code/trunk"
 
 LICENSE="GPL-2 LGPL-2"
 SLOT="0"
