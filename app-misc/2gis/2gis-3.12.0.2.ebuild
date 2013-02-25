@@ -10,7 +10,7 @@ DESCRIPTION="Proprietary freeware multimedia map of several Russian and Ukrainia
 HOMEPAGE="http://2gis.ru"
 SRC_URI="http://download.2gis.ru/arhives/2GISShell-${PV}.orig.zip"
 
-LICENSE="2Gis-ru"
+#LICENSE="2Gis-ru"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE="+data"
@@ -19,9 +19,9 @@ DEPEND="app-arch/unzip"
 RDEPEND="app-emulation/wine
 	data? ( app-misc/2gis-data )"
 
-pkg_setup() {
-	check_license "${FILESDIR%/files}"/../../licenses/${LICENSE}
-}
+#pkg_setup() {
+#	check_license "${FILESDIR%/files}"/../../licenses/${LICENSE}
+#}
 
 src_install() {
 	insinto /opt/${PN}
